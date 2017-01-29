@@ -1,0 +1,42 @@
+<div id="survey">
+	<form name="newuser" method="POST">
+		<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+		<table>
+			<tr>
+				<td>Your Name:</td>
+				<td>
+					<input type="text" name="name">
+				</td>
+			</tr>
+			<tr>
+				<td>Dojo Location:</td>
+				<td>
+					<select name="location">
+						<option value="Seattle">Seattle</option>
+						<option value="Silicon_Valley">Silicon Valley</option>
+						<option value="Los_Angeles">Los Angeles</option>
+						<option value="Dallas">Dallas</option>
+						<option value="WashingtonDC">Washington D.C.</option>
+						<option value="Chicago">Chicago</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Favorite Language:</td>
+				<td>
+					<select name="language">
+						<option value="Python">Python</option>
+						<option value="Mean">Mean</option>
+						<option value="Ruby">Ruby</option>
+						<option value="Lamp">Lamp</option>
+						<option value="Swift">Swift</option>
+						<option value="Chicken">Chicken</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<span id="commenthead">Comment (optional):</span>
+		<textarea name="comment" rows="3" cols="40"></textarea>
+		<center><input type="submit" value="Button"></center>
+	</form>
+</div>

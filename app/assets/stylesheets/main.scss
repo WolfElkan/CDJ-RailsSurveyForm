@@ -1,0 +1,35 @@
+#survey{
+	border: solid black 1px;
+	display: inline-block;
+	padding: 10px;
+}
+
+#commenthead{
+	display: block;
+}
+
+textarea{
+	display: block;
+}
+
+h2 {
+	margin: 0 0 5px;
+	text-decoration: underline;
+}
+
+#frame {
+	display: inline-block;
+	width: 300px;
+}
+
+#results{
+	border: solid black 1px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#count {
+	padding: 10px;
+	background-color: #aad191;
+	border: solid black 1px;
+}
